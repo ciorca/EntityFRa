@@ -38,8 +38,7 @@
                 <SortedDescendingCellStyle BackColor="#FCF6C0" />
                 <SortedDescendingHeaderStyle BackColor="#820000" />
             </asp:GridView>
-            >
-            <asp:ObjectDataSource ID="ObjectDataSource1" runat="server" SelectMethod="GetDepartments" TypeName="EntityFRa.EmployeeRepository"></asp:ObjectDataSource>
+            &nbsp;<asp:ObjectDataSource ID="ObjectDataSource1" runat="server" SelectMethod="GetDepartments" TypeName="EntityFRa.EmployeeRepository"></asp:ObjectDataSource>
         </div>
     </form>
 </body>
