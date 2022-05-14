@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data.Entity;
 using System.Linq;
 using System.Web;
 using System.Web.Security;
@@ -11,6 +12,11 @@ namespace EntityFRa
     {
         protected void Application_Start(object sender, EventArgs e)
         {
+            Database.SetInitializer(new DropCreateDatabaseIfModelChanges<EmployeeDBContext>());
+        }
+        protected void Session_Start(object sender, EventArgs e)
+        {
+
         }
     }
 }
