@@ -7,10 +7,8 @@ namespace EntityFRa
 {
     public class EmployeeRepository
     {
-
-        public List<Department>GetDepartments()
+        public List<Department> GetDepartments()
         {
-
             EmployeeDBContext employeeDBContext = new EmployeeDBContext();
             return employeeDBContext.Departments.ToList();
         }
