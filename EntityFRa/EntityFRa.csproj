@@ -82,6 +82,7 @@
     <Compile Include="Employee.cs" />
     <Compile Include="EmployeeDBContext.cs" />
     <Compile Include="EmployeeRepository.cs" />
+    <Compile Include="EmployeesDBContextSeeder.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>

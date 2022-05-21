@@ -12,7 +12,7 @@ namespace EntityFRa
     {
         protected void Application_Start(object sender, EventArgs e)
         {
-            Database.SetInitializer(new DropCreateDatabaseIfModelChanges<EmployeeDBContext>());
+            Database.SetInitializer(new EmployeesDBContextSeeder());
         }
         protected void Session_Start(object sender, EventArgs e)
         {

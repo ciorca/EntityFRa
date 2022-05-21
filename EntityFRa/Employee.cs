@@ -5,12 +5,10 @@ using System.Linq;
 using System.Web;
 
 namespace EntityFRa
-{
-    [Table("tblEmployees")]
+{  
     public class Employee
     {
-        public int Id { get; set; }
-        [Column("First_Name")]
+        public int Id { get; set; }    
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public string Gender { get; set; }
